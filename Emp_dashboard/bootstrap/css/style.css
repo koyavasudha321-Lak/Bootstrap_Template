@@ -91,7 +91,7 @@
 .body1 ul li:nth-child(1) span{
 	background: #55ACEE;
 }
-.body1 ul li:nth-child(2) span{
+.body1 ul li:nth-child(5) span{
 	background:  #bb0000;
 }
 
@@ -104,7 +104,7 @@
 .body1 ul li:nth-child(4) span{
 	background: #55ACEE;
 }
-.body1 ul li:nth-child(5) span{
+.body1 ul li:nth-child(2) span{
 	background: #ea4c89;
 }
 .body1 ul li:nth-child(6) span{
