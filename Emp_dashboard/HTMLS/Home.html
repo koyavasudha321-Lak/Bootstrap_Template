@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+    <head>
+        
+        <link rel="stylesheet" href="../CSS_c/styles.css">
+        
+        <title>Login Form Design</title>  
+        <script src="login1.js"></script>
+    </head>
+    <body>
+        
+        <div class="loginPage"> 
+            <img src="../images/avi7.jpg" class="avatar">
+            <div class="form">
+                
+                <form class="register-form" action="Home.html" method="POST">
+                    <h1>Register</h1>
+                 
+                    <input type="text" placeholder="Enter Username" id="username">
+
+                    
+                    <input type="password" placeholder="Enter Password" id="password">
+                    <input type="password" placeholder="Confirm Password" id="retype">
+                    <input type="text" placeholder="Email Id">
+                    <input type="submit" value="Create" onClick="return validate()">
+                    
+                    
+                    <a href="#">Lost your Password??</a>
+                    <br>
+                    <p class="msg">Already Registered!! <a href="#">Login</a> </p>
+                    
+                </form>
+            
+            
+                <form class="login-form">
+                    <h1>Login</h1>
+                    <br>
+                    <input type="text" placeholder="Enter Username">
+                    <br><br>
+                    
+                    <input type="password" placeholder="Enter Password">
+                    <br>
+                    <br>
+                    
+                    <input type="submit" value="Login">
+
+                    
+
+                    <p class="msg">Not Registered yet!! <a href="#">Register</a> </p>
+                    <a href="index.html">Login Completed</a>
+                    
+                </form>
+
+                
+            </div>
+        </div>
+
+
+        <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+        <script>
+            $('.msg a').click(function(){
+                $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+            });
+        </script>
+
+        
+
+    </body>
+
+</html>
